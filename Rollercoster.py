@@ -11,10 +11,11 @@ if height >= 100:
     elif age <= 18:
         print("Please pay Rs.7")
         bill = 7
+    elif 40 <= age <= 60:
+        print("Enjoy Your Free Ride")
     else:
         print("Please pay Rs.12")
         bill = 12
-
     print("Do You want to Take Photos For Extra Rs.3 ? Y or N")
     answer = input()
     if answer == "Y":
