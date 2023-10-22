@@ -25,7 +25,7 @@ print(type(two_digit_number))
 '''
 
 # Calculations Mode
-print('Welcome to Calculator App')
+
 
 # PEMDAS
 # Parenthesis ()
@@ -71,6 +71,7 @@ So, the expression evaluates to 21, following the PEMDAS order.
 # Not Operator not (!)
 # Logical Operators
 '''
+print('Welcome to Calculator App')
 print(3*3+3/3-3)
 print(int(3*3+3/3-3))
 '''
@@ -99,8 +100,6 @@ elif (bmi >= 25 and bmi <= 29.9):
 else:
   print("Obese")
 '''
-
-age = input()
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
 # one year has 52 weeks
@@ -112,6 +111,7 @@ age = input()
 #  Don't change the code above 
 # Write your code below this line 
 '''
+age = input()
 age_in_w = int(age) * 52
 age_in_d = age_in_w * 7
 age_in_h = age_in_d * 24
@@ -125,5 +125,7 @@ print(age_in_m)
 print(age_in_s)
 print(age_in_ms)
 '''
+'''
 life_Remain_weeks = (90-int(age))*52
 print(f"You have {life_Remain_weeks} weeks left.")
+'''
